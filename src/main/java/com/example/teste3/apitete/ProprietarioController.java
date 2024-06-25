@@ -23,7 +23,7 @@ import java.util.Optional;
 @RequestMapping(("/proprietarios"))
 public class ProprietarioController {
 
-
+    private Double valorTotal;
     private ProprietarioRepository proprietarioRepository;
 
     @GetMapping
